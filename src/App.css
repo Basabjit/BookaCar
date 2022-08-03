@@ -1,0 +1,235 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.myregistrationform {
+  border: 4px solid;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.headings__Container {
+  background-color: #3c406a;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.headings {
+  display: flex;
+  align-items: flex-start;
+  gap: .2rem;
+  flex-direction: column;
+  color: #878ea9;
+  letter-spacing: 1px;
+}
+
+.user__heading {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.cta__btn {
+  padding: .5rem .75rem;
+  background-color: transparent;
+  color: #cfd4ef;
+  font-size: .8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid #cfd4ef;
+  border-radius: 2px;
+}
+
+.profile__container {
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  align-items: flex-start
+}
+
+.profile__sidebar {
+  border-radius: 2px;
+  background-color: #e8e7e7;
+  width: 15rem;
+}
+
+.profile__sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.lists {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px 30px;
+  color: #696d70;
+  transition: all 0.2s ease;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+
+}
+
+.lists:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.profile__actions {
+  width: calc(100% - 17rem);
+}
+
+.user__orders {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.order__headings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  letter-spacing: 1px;
+  font-size: .85rem;
+  text-transform: uppercase;
+}
+
+.order__heading {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.order__summery {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.order__list__container {
+  width: 100%;
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order__title {
+  letter-spacing: 1px;
+  font-size: .8rem;
+  text-transform: capitalize;
+  color: #1e72e9;
+  font-weight: 500;
+}
+
+.order__title h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+.order__info {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.icon {
+  border-radius: 50%;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+
+.form-label {
+  position: absolute !important;
+  
+  left: 2rem !important;
+  bottom: 0.5rem !important;
+  color:#0a0b0d !important;
+  pointer-events: none;
+  font-size: small !important;
+  
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.form-control {
+  margin: 20px;
+  border: 1px solid rgb(225, 31, 31) !important;
+}
+
+.form-control:active,
+.form-control:focus {
+  border: 1px solid #1e72e9 !important;
+}
+.form-control:active + .form-label,
+.form-control:focus + .form-label,
+.form-control:not(:placeholder-shown) + .form-label
+{
+  top: 6px;
+  padding: 0.2rem;
+}
+.form-control:not(:placeholder-shown) + .form-label
+{
+  background-color: rgb(255, 255, 255);
+}
+
+.laltu{
+  margin-left: 7rem !important;
+  background-color:#38deff !important;
+ border-radius: 15px !important;
+}
